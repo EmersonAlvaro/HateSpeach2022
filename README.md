@@ -1,4 +1,4 @@
-# hateSpeach
+# hateSpeech
 
 
 # Description
