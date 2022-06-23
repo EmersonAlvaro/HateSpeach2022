@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hateSpeach result</title>
+
+    <link rel="stylesheet" type="text/css" href="./static/css/hatecss.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/hatecss.css" />
+
+    <!-- <script src="https://kit.fontawesome.com/0a2edc91e7.js" crossorigin="anonymous"></script> -->
+    <script src="./static/js/main.js"></script>
+
+</head>
+
+<body class="w3-container">
+    <!-- Header -->
+    <header class="w3-container w3-xlarge w3-padding-24">
+        <a href="#" class="w3-left w3-button ">Homepage</a>
+        <a href="#about" class="w3-right w3-button">About</a>
+    </header>
+
+
+
+    <section class="w3-container w3-main" id="results">
+
+        <header class="w3-container" style="padding-top:22px">
+            <h5><b><i class="fa fa-dashboard"></i> Results from the mode</b></h5>
+        </header>
+
+        <article class="w3-row-padding w3-margin-bottom ">
+            <div class="w3-quarter w3-double-border">
+                <div class="w3-container w3-padding-16">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i>
+                        <h4> <b>Prediction</b>  </h4>
+                    </div>
+                    <div class="w3-clear"></div>
+                    <p id="prediction"></p>
+                </div>
+
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-container w3-padding-16 w3-double-border">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i>
+                        <h4> <b>Source</b>  </h4>
+                    </div>
+
+                    <div class="w3-clear"></div>
+                    <p id="source"></p>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-container w3-padding-16 w3-double-border">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i>
+                        <h4><b>Link </b>  </h4>
+                    </div>
+
+                    <div class="w3-clear"></div>
+                    <p id="Link"></p>
+                </div>
+            </div>
+
+            <div class="w3-quarter">
+                <div class="w3-container w3-padding-16 w3-double-border">
+                    <div class="w3-left"><i class="fa fa-comment w3-xxxlarge"></i>
+                        <h4> <b>Video ID</b>  </h4>
+                    </div>
+
+                    <div class="w3-clear"></div>
+                    <p id="videoID"></p>
+                </div>
+            </div>
+        </article>
+
+        <article class="w3-container w3-padding-32">
+            <h4> Video Transcription</h4>
+            <div class="w3-container w3-padding-16 w3-double-border">
+                <p id="video_transcript"></p>
+            </div>
+        </article>
+
+        <article class="w3-container w3-dark-grey w3-padding-32">
+            <!-- <h4> Prediction meaning </h4> -->
+            <div class="w3-row">
+                <div class="w3-container w3-third">
+                    <h5 class="w3-bottombar w3-border-red">Hate Speach </h5>
+                    <p>Public speech that expresses hate or encourages violence towards a person or group based on something such as race, religion, sex, or sexual orientation</p>
+                </div>
+                <div class="w3-container w3-third">
+                    <h5 class="w3-bottombar w3-border-orange"> Offensive Speach</h5>
+                    <p>Public speach that is not hate but can causes someone to feel resentful, upset, or annoyed, angry, or upset : rude or insulting</p>
+                </div>
+                <div class="w3-container w3-third">
+                    <h5 class="w3-bottombar w3-border-green">Normal Speach </h5>
+                    <p>Public speach that is not hate speach or Offensive</p>
+                </div>
+            </div>
+        </article>
+
+    </section>
+
+    <footer class="w3-container w3-padding-16  w3-row ">
+        <div class="w3-col w3-container" style="width:25%">
+            <h4>Autor</h4>
+            <ul>
+                <li>Emerson Cardoso</li>
+                <li>Sameer Hans</li>
+            </ul>
+        </div>
+
+        <div class="w3-col w3-container" style="width:25%">
+            <h4>Supervisor</h4>
+            <ul>
+                <li>Paolo Papotti</li>
+                <li>Gilbert Badaro </li>
+            </ul>
+        </div>
+
+        <div class="w3-col w3-container" style="width:25%">
+            <h4>Credits</h4>
+            <ul>
+                <li> Aydin Abiar</li>
+            </ul>
+        </div>
+
+        <div class="w3-col w3-container" style="width:25%">
+            <img src="./static/img/eurecom.svg.png" class="w3-image" alt="EURECOM logo">
+        </div>
+
+    </footer>
+
+</body>
+
+</html>

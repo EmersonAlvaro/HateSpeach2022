@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hateSpeach</title>
+    <link rel="stylesheet" type="text/css" href="./static/css/hatecss.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/w3.css" />
+    <link rel="stylesheet" type="text/css" href="./static/css/hatecss.css" />
+    
+
+    <!-- <script src="https://kit.fontawesome.com/0a2edc91e7.js" crossorigin="anonymous"></script> -->
+    <script src="./static/js/hatejava.js"></script>
+
+    <!-- <link rel="shortcut icon" href="static/img/favicon.ico" type="image/x-icon" /> -->
+
+</head>
+
+<body class="w3-container">
+
+    <section id="loader">
+        <h2> Please wait...</h2>
+        <div class="loader-animation"></div>
+    </section>
+
+    <section id="searchdiv" class="w3-container w3-padding-large">
+        <article class="w3-display-middle w3-center">
+            <h3 class="w3-center"><b> Welcome to Video</b></h3>
+
+            <div class="w3-container w3-padding-16">
+                <span class="w3-tag w3-xlarge  w3-red">HateSpeach</span>
+                <span class="w3-tag w3-xxlarge ">Dectector</span>
+            </div>
+
+            <form id="myForm" >
+                <input class="w3-input w3-border w3-round-xxlarge " type="url" name="url" id="url"
+                    placeholder="Insert the link here ...">
+
+                <div class="w3-padding-16">
+                    <input class="w3-button w3-blue" type="submit" value="Submit">
+                </div>
+
+                <p> Please select the source of the video, the default is TikTok </p>
+                <input class="w3-radio" type="radio" name="video_src" id="Youtube" value="Youtube">
+                <label for="Youtube">Youtube</label>
+                <!-- <input class="w3-radio" type="radio" name="video_src" id="Facebook" value="Facebook">
+                <label for="Facebook">Facebook</label>
+                <input class="w3-radio" type="radio" name="video_src" id="Instagram" value="Instagram">
+                <label for="Instagram">Instagram</label> -->
+                <input class="w3-radio" type="radio" name="video_src" id="TikTok" value="TikTok" checked>
+                <label for="TikTok">TikTok</label>
+
+            </form>
+        </article>
+    </section>
+
+
+</body>
+
+</html>

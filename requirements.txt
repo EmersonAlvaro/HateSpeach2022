@@ -1,0 +1,12 @@
+requests
+opencv-python
+absl-py
+bottle
+gunicorn
+Pillow
+tensorflow 
+aiohttp 
+aiofiles
+psutil
+pytesseract
+tesseract
