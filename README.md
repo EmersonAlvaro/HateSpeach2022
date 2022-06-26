@@ -1,17 +1,17 @@
-# hateSpeach
+# hateSpeech
 
 
 # Description
-In this project we intend to create a RESTFUll API for dectetion of hateSpeach.
+In this project we intend to create a RESTFUll API for detection of hateSpeech.
 This project is part of semester project in EURECOM
 
 # Overview
-The HateSpeach is based on client-server arquitecture power by Machine Learning Model
+The HateSpeech is based on client-server arquitecture power by Machine Learning Model
 ![Alt text](overview.jpg?raw=true "Title")
 
 # 1 - Project Structure
 ``` bash
-HateSpeach2022/
+HateSpeech2022/
 ├── AnnotHate
 │   ├── src
 │   │   ├── app
